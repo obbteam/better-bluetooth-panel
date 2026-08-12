@@ -9,10 +9,10 @@ The default bluetooth panel uses action calls on the buttons - Press this button
 So I asked CLAUDE to change the label into Status label, add background color and a green dot as status indicator.
 
 ### Before:
-![alt text](image.png)
+![WHOOPS](static/image.png)
 
 ### After:
-![alt text](image-1.png)
+![WHOOPS](static/image-1.png)
 
 ## Requirements
 
