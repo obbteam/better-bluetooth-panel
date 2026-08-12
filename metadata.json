@@ -1,0 +1,9 @@
+{
+  "uuid": "betterbluetoothpanel@obbteam.github.io",
+  "name": "Better Bluetooth Panel",
+  "description": "Make bluetooth panel show connected devices more visibly",
+  "shell-version": [
+    "50"
+  ],
+  "url":"https://github.com/obbteam/better-bluetooth-panel"
+}

@@ -1,0 +1,25 @@
+/* Add your custom extension styling here */
+
+/* .bt-device-connected has no static rule here: its background-color is
+   set at runtime in extension.js from the system accent color
+   (St.ThemeContext.get_accent_color()), since St's CSS engine can't
+   apply a custom alpha to a theme color. */
+
+/* Gap between device rows, applied once to the whole list so every row
+   gets it - not just the ones matching .bt-device-connected. */
+
+
+.bt-device-list {
+    spacing: 4px;
+}
+
+.bt-status-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 4px;
+    background-color: #3a3a3a; /* off */
+}
+
+.bt-status-dot-on {
+    background-color: #2ec27e; /* GNOME green, on */
+}
